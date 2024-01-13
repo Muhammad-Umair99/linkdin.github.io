@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f21c3bb03e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Linkedin</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <img class="navbrand" src="https://www.tmf-group.com/-/media/images/logos/case-study-logos/linkedin.png" alt="">
+        <div class="navsearchsection">
+            <input class="SearchBar" type="search" placeholder="Search">
+        <button class="Search">Search</button>
+        </div>
+        
+        <ul class="navlist">
+           <a href="#"> <li class="navlinks"><i class="fa-solid fa-house" style="display: block;"></i>
+            Home</li></a>
+            <li class="navlinks"><i class="fa-regular fa-address-card" style="display: block;"></i> About</li>
+            <li class="navlinks"><i class="fa-solid fa-network-wired" style="display: block;"></i> My network</li>
+            <li class="navlinks"><i class="fa-regular fa-bell" style="display: block;"></i> Notification</li>
+          <a href="#inp"> <li class="navlinks"><i class="fa-regular fa-comment-dots" style="display: block;"></i> Meassaging</li></a>
+        </ul>
+    </div>
+
+    <div class="leftsidebar">
+       <div class="leftimg"> <img class="leftsidebarImg" src="data:image/jpeg;base64,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" alt="">
+       </div>
+      
+      
+       <div class="leftlogo">
+        <img src="./picture.png" alt="" class="logo">
+       </div>
+
+       <div class="profilename">
+       <p class="name">Muhammad Umair</p>
+       <p class="Description">Entrepreneur | IT Activist | MERN <br>Stack |React JS Specialist |React <br>Native |Android Developer </p>
+    </div>
+    <div class="profile"><hr>
+        <span class="Views">Profile Viewers</span> <span class="no">30</span> </div>
+    <div class="profile2"> 
+        <span class="Views">Post impressions </span> <span class="no">40</span></div>
+     <div class="sales">
+
+        <p class="text">Find customers with Sales Nav <br>   <hr>
+            <span class="upgrad">Upgrade My Plan</span> </p>
+            <div class="pic"><img class="img" src="./pic.jpg" alt=""></div>
+
+
+    <div class="text2"> <hr>
+
+        <p class="myitem"><i class="fa-solid fa-bookmark"></i> My items </p>
+
+
+    </div>
+
+
+           </div>
+
+   
+       
+       
+      
+       
+    
+
+    </div>
+
+
+    <div class="leftsidebottom">
+            <p class="recent">Recent</p>
+            
+            <ul  class="fa-ul" >
+               
+               
+               
+                <li><span class="fa-li"><i class="fa-solid fa-gift"></i></span> AI & ML Engineer, Data Science</li>
+                
+                <li><span class="fa-li"><i class="fa-solid fa-gift"></i></span>Worldwide Flutter - WWF</li>
+                
+                <li><span class="fa-li"><i class="fa-solid fa-gift"></i></span> Hire Flutter Developer</li>
+               
+                <li><span class="fa-li"><i class="fa-solid fa-gift"></i></span> E-commerce Side Hustle</li>
+
+                <li><span class="fa-li"><i class="fa-solid fa-gift"></i></span> WordPress</li>
+
+
+         
+            
+
+
+
+
+
+
+    </div>
+
+    <div class="midsection">
+        <div class="CreatePost">
+            <div class="image"><img src="./picture.png" alt="" class="img1">
+            </div>
+            <div class="midsearch"><input type="text" class="searchmid" placeholder="Start a post"></div>
+
+            <div class="media">
+            <div class="media1"><i class="fa-regular fa-image"></i> Media </div>
+            
+            <div class="event"><i class="fa-regular fa-calendar-days"></i> Event</div>
+            <div class="article"><i class="fa-solid fa-newspaper"></i> Write article</div>
+            
+            
+            
+            </div>
+            
+        </div>
+        <div class="post">
+            <div class="post-img-name">
+                <img src="./pic.jpg" alt="" class="post-img">
+
+              <div class="post-name"><p class="full-name"><span class="Full-Name">Syed Ommer Amer  <span class="first">&#8226 1st <br> Talent Transformation |Apprenticeship | EdTech <br>22h &#8226
+                <i class="fa-solid fa-earth-americas"></i>  </span></span></p></div>
+            </div>
+            <div class="hashtag"> <span class="des"> <span style="color: blue;">#FounderDiary:</span> &nbsp;   2023 had been quite a rollercoaster year. there were tpp many ups and <br>down in my life 
+
+            </span>
+
+          
+            </div>
+                <h1 class="more">...see more</h1>
+
+                <div class="position"> <img class="pic-post" src="https://miro.medium.com/v2/resize:fit:1024/1*k8ul2ge8HPa8LqIs7DoAEg.jpeg" alt=""></div>
+        </div>
+        <!-- 2nd line -->
+        <div class="post">
+            <div class="post-img-name">
+                <img src="https://e7.pngegg.com/pngimages/570/241/png-clipart-programmer-computer-programming-computer-icons-programmer-furniture-reading-thumbnail.png" alt="" class="post-img">
+
+              <div class="post-name"><p class="full-name"><span class="Full-Name">Zafar Khan  <span class="first">&#8226 1st <br> Talent Transformation |Apprenticeship | EdTech <br>2h &#8226
+                <i class="fa-solid fa-earth-americas"></i>  </span></span></p></div>
+            </div>
+            <div class="hashtag"> <span class="des"> <span style="color: blue;">#FounderDiary:</span> &nbsp;   2024 had been quite a rollercoaster year. there were tpp many ups and <br>down in my life 
+
+            </span>
+
+          
+            </div>
+                <h1 class="more">...see more</h1>
+
+                <div class="position"> <img class="pic-post" src="https://www.careergirls.org/wp-content/uploads/2015/06/Computer_Programmer1920X10180.jpg" alt=""></div>
+        </div>
+        <!-- 3rd line -->
+        <div class="post">
+            <div class="post-img-name">
+                <img src="./pic.jpg" alt="" class="post-img">
+
+              <div class="post-name"><p class="full-name"><span class="Full-Name">Kashif Mahmood  <span class="first">&#8226 1st <br> Talent Transformation |Apprenticeship | EdTech <br>12h &#8226
+                <i class="fa-solid fa-earth-americas"></i>  </span></span></p></div>
+            </div>
+            <div class="hashtag"> <span class="des"> <span style="color: blue;">#FounderDiary:</span> &nbsp;   2024 had been quite a rollercoaster year. there were tpp many ups and <br>down in my life 
+
+            </span>
+
+          
+            </div>
+                <h1 class="more">...see more</h1>
+
+                <div class="position"> <img class="pic-post" src="https://usa.bootcampcdn.com/wp-content/uploads/sites/66/2020/05/shutterstock_753780223-850x412.jpg" alt=""></div>
+        
+        </div>
+
+    
+
+
+    <div class="rightsidebar">
+        <div class="box1">
+            <h2>Promoted</h2>
+            <div class="text-box-2">
+                <div class="image-box-2">
+                    <img src="https://cdn.britannica.com/30/199930-131-B3D1D347/computer.jpg" alt="Images" class="imagett">
+            
+            
+            </div><p class="text13">X500 - Testing powerhouse <br> 
+                <span class="text14">
+               Time Correlated capture of Bluetooth (Br/EDR/LE) Wi-Fi (5/6/6E) in one box! 
+            </span></p></div>
+
+        <!-- secon -->
+       
+    <div class="text-box-2">
+        <div class="image-box-2">
+            <img src="https://i0.wp.com/educate.itsfacile.com/wp-content/uploads/2018/05/Coding.jpg?fit=1280%2C853jpg" alt="Images" class="imagett">
+
+   
+    </div><p class="text13">X500 - Testing powerhouse <br> 
+        <span class="text14">
+       Time Correlated capture of Bluetooth (Br/EDR/LE) Wi-Fi (5/6/6E) in one box! 
+    </span></p></div>
+            
+
+
+
+
+
+    <!-- 3rd line -->
+    <div class="text-box-2">
+        <div class="image-box-2">
+            <img src="https://cdn.britannica.com/30/199930-131-B3D1D347/computer.jpg" alt="Images" class="imagett">
+
+   
+    </div><p class="text13">X500 - Testing powerhouse <br> 
+        <span class="text14">
+       Time Correlated capture of Bluetooth (Br/EDR/LE) Wi-Fi (5/6/6E) in one box! 
+    </span></p></div>
+
+      
+      
+      
+        
+    
+
+
+
+        </div>
+
+        <!-- 2nd line -->
+        <div class="box2">
+            <div class="text-box-align">
+                <span> About Accessbility&nbsp; Help-Center Privacy & terms Ad Choices Adverting Business Servicess Get the Linkedin App More</span>
+
+                 
+            </div>
+            <div>
+                <img class="imglink" src="https://www.tmf-group.com/-/media/images/logos/case-study-logos/linkedin.png" alt="">
+           </div>  
+           <span class="imgsince">Linkdin Corporation &#169; 2024</span>
+            
+        </div>
+        
+        
+    </div>
+    
+    <div class="message-box" id="inp">
+    
+        <div class="message-box2"  >
+            <div class="img45">    
+        <img src="./picture.png" alt="" class="img-1"></div>
+
+      <div class="mes2">  
+        <p class="message">Messaging</p>
+       <div class="mes3">
+        <p class="message2">....</p>
+        <p class="message2"><i class="fa-solid fa-pen-to-square"></i></p>
+        <p class="message2"><i class="fa-solid fa-chevron-up"></i></p></div>
+    
+
+        <div class="input-3"><input type="text" placeholder="Typing" class="typing">
+        <button class="btn">Sent</button>
+        </div>
+    </div>
+        </div>
+   
+     
+  
+    </div>
+
+
+
+
+
+</video>
+
+</body>
+</html>
